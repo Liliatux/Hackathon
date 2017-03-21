@@ -11,4 +11,8 @@
 |
 */
 
-Route::get('/', 'CentreController@show');
+
+
+Route::get('/', 'BlogController@displayArticle');
+
+
